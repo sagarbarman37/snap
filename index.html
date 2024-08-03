@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-------------------------side navbar-------------------->
+      <div class="navbar-slider">
+        <div class="inner-slider">
+          <div class="close">
+            <i class="ri-close-line slider-close"></i>
+          </div>
+          <div class="item-slider">
+            <ul class="item-list">
+              <div>
+                <li class="features-li">
+                  <span>Features</span
+                  ><i class="ri-arrow-down-s-line firstArrow"></i>
+                </li>
+
+                <div class="features-slide">
+                  <div class="todo-list-slide">
+                    <img src="./images/icon-todo.svg" alt="todu-list" />
+                    <a href="#">Todo List</a>
+                  </div>
+                  <div class="calendar-slide">
+                    <img src="./images/icon-calendar.svg" alt="todu-list" />
+                    <a href="#">Calendar</a>
+                  </div>
+                  <div class="reminder-slide">
+                    <img src="./images/icon-reminders.svg" alt="todu-list" />
+                    <a href="#">Reminders</a>
+                  </div>
+                  <div class="planning-slide">
+                    <img src="./images/icon-planning.svg" alt="todu-list" />
+                    <a href="#">Planning</a>
+                  </div>
+                </div>
+              </div>
+              <!---------------------features------------------------->
+
+              <div>
+                <li class="company-li">
+                  <span>Company</span><i class="ri-arrow-down-s-line"></i>
+                </li>
+
+                <div class="company-slide">
+                  <div class="history-slide"><a href="#">History</a></div>
+                  <div class="our-team-slide"><a href="#">Our team</a></div>
+                  <div class="blog-slide"><a href="#">Blog</a></div>
+                </div>
+              </div>
+              <!--------------------company---------------------->
+
+              <li class="careers"><div>Careers</div></li>
+              <li class="about"><div>About</div></li>
+            </ul>
+          </div>
+          <!--end item-->
+          <div class="register-slider">
+            <a><button id="slLogin">Login</button></a>
+            <a><button id="slRegister">Register</button></a>
+          </div>
+          <!--end register-->
+        </div>
+      </div>
+      <!--end navbar-->
+
+      <!------------------------end sidenav------------------------------->
+
+      <!-----------------------navbar start---------------------->
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </div>
+        <!--end logo-->
+        <div class="item">
+          <ul class="item-list">
+            <li class="downArrowOne">
+              <span>Features</span
+              ><i class="ri-arrow-down-s-line firstArrow"> </i>
+            </li>
+            <li class="downArrowTwo">
+              <span>Company</span><i class="ri-arrow-down-s-line"></i>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <!--end item-->
+        <div class="register">
+          <a><button id="login-btn">Login</button></a>
+          <a><button id="register-btn">Register</button></a>
+          <i id="menu-btn" class="ri-menu-3-line menu-btn"></i>
+        </div>
+        <!--end register-->
+      </div>
+      <!-----------------end navbar--------------------------->
+
+      <div class="box">
+        <div class="features">
+          <div class="todo-list">
+            <img src="./images/icon-todo.svg" alt="todu-list" />
+            <a href="#">Todo List</a>
+          </div>
+          <div class="calendar">
+            <img src="./images/icon-calendar.svg" alt="todu-list" />
+            <a href="#">Calendar</a>
+          </div>
+          <div class="reminder">
+            <img src="./images/icon-reminders.svg" alt="todu-list" />
+            <a href="#">Reminders</a>
+          </div>
+          <div class="planning">
+            <img src="./images/icon-planning.svg" alt="todu-list" />
+            <a href="#">Planning</a>
+          </div>
+        </div>
+
+        <div class="company">
+          <div class="history"><a href="#">History</a></div>
+          <div class="our-team"><a href="#">Our team</a></div>
+          <div class="blog"><a href="#">Blog</a></div>
+        </div>
+      </div>
+      <!---------------------main containt------------------>
+
+      <div class="main-container">
+        <div class="text-content">
+          <img
+            class="mobile-img"
+            src="./images/image-hero-mobile.png"
+            alt="img"
+          />
+          <h1>Make <span class="heading-line">remote work</span></h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learn-more">Learn More</button>
+
+          <div class="clint">
+            <img src="./images/client-audiophile.svg" alt="clint" />
+            <img src="./images/client-databiz.svg" alt="clint" />
+            <img src="./images/client-maker.svg" alt="clint" />
+            <img src="./images/client-meet.svg" alt="clint" />
+          </div>
+        </div>
+        <!--------text content end----------->
+
+        <div class="image-content">
+          <img
+            class="desktop-img"
+            src="./images/image-hero-desktop.png"
+            alt="img"
+          />
+        </div>
+        <!---------image content end------------->
+      </div>
+      <!------------------end main container----------------------->
+
+      <!----------------login container------------------>
+      <div class="login-container">
+        <div class="login-box">
+          <i class="ri-close-line login-close"></i>
+          <h1 class="login">Login</h1>
+          <form action="#">
+            <div>
+              <label for="text">User Name<sup>★</sup></label>
+              <input
+                id="text"
+                type="text"
+                placeholder="Enter Your User name"
+                required
+              />
+            </div>
+
+            <div class="password-input">
+              <label for="password">password<sup>★</sup></label>
+              <input
+                id="password"
+                type="password"
+                placeholder="Enter Your password"
+                required
+              />
+              <i class="ri-eye-off-line offEye"></i>
+              <i class="ri-eye-line onEye"></i>
+            </div>
+            <div class="Term">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">accept Term and Condition.</label>
+            </div>
+            <div class="submit-btn">
+              <button class="btn">Login</button>
+            </div>
+          </form>
+
+          <div class="register-text">
+            <p>
+              Don't have account?
+              <a id="regText">Register </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!------------------end login container---------------->
+      <!-------------------register container---------------->
+
+      <div class="reg-container">
+        <div class="reg-box">
+          <i class="ri-close-line reg-close"></i>
+          <h1 class="reg">Register</h1>
+          <form action="#">
+            <div class="name-input">
+              <label for="reg-name">Your Name <sup>★</sup></label>
+              <input
+                id="reg-name"
+                type="text"
+                placeholder="Enter Your Full Name"
+                required
+              />
+            </div>
+
+            <div class="Mobile-input">
+              <label for="reg-text">Email or Mobile <sup>★</sup></label>
+              <input
+                id="reg-text"
+                type="text"
+                placeholder="Email or Mobile No"
+                required
+              />
+            </div>
+
+            <div class="password-input">
+              <label for="reg-password"
+                >Creat Password <sup style="color: red">★</sup></label
+              >
+              <input
+                id="reg-password"
+                type="password"
+                placeholder="Creat Password"
+                required
+              />
+            </div>
+            <div class="reg-btn">
+              <button class="btn">Register</button>
+            </div>
+          </form>
+
+          <div class="login-text">
+            <p>
+              Have a Account?
+              <a id="loginText">Login </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
